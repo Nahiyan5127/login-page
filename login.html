@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logging Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+    
+    p {
+      margin-bottom: 16px;
+    }
+    
+    form {
+      width: 500px;
+      margin: 0 auto;
+    }
+    
+    input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 16px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Logging Page</h1>
+  <form action="/login" method="post">
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <button type="submit">Login</button>
+    <p class="error"></p>
+  </form>
+</body>
+</html>
